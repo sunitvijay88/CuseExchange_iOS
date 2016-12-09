@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1749FA811DEBE64E00463356 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1749FA801DEBE64E00463356 /* ProfileViewController.swift */; };
+		176CD01D1DEA84200042ADE5 /* PostAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176CD01C1DEA84200042ADE5 /* PostAdViewController.swift */; };
+		177DB9E11DE7682100ED474E /* BooksDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177DB9DB1DE7682100ED474E /* BooksDetailViewController.swift */; };
+		177DB9E21DE7682100ED474E /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177DB9DC1DE7682100ED474E /* ImageStore.swift */; };
+		177DB9E31DE7682100ED474E /* Ad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177DB9DD1DE7682100ED474E /* Ad.swift */; };
+		177DB9E41DE7682100ED474E /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177DB9DE1DE7682100ED474E /* ItemCell.swift */; };
+		177DB9E51DE7682100ED474E /* AdStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177DB9DF1DE7682100ED474E /* AdStore.swift */; };
+		177DB9E61DE7682100ED474E /* BooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177DB9E01DE7682100ED474E /* BooksViewController.swift */; };
+		177DCD311DF5322900A473BC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 177DCD301DF5322900A473BC /* GoogleService-Info.plist */; };
+		1784E1C01DECF41600388522 /* MyAdsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1784E1BF1DECF41600388522 /* MyAdsViewController.swift */; };
+		178AE1571DF3D1D200518BC1 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178AE1561DF3D1D200518BC1 /* Launch Screen.storyboard */; };
+		178F98981DEFE75B003901EE /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178F98971DEFE75B003901EE /* ForgotPasswordViewController.swift */; };
+		179C7A891DEF80C3000A0FD3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179C7A881DEF80C3000A0FD3 /* LoginViewController.swift */; };
+		179C7A8B1DEF9107000A0FD3 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179C7A8A1DEF9107000A0FD3 /* SignUpViewController.swift */; };
+		17B157FA1DDE8C17007966D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B157F91DDE8C17007966D4 /* AppDelegate.swift */; };
+		17B157FC1DDE8C17007966D4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B157FB1DDE8C17007966D4 /* HomeViewController.swift */; };
+		17B157FF1DDE8C17007966D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17B157FD1DDE8C17007966D4 /* Main.storyboard */; };
+		17B158011DDE8C17007966D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17B158001DDE8C17007966D4 /* Assets.xcassets */; };
+		17CE3EFD1DF1FE1F0008266B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17CE3EFC1DF1FE1F0008266B /* Assets.xcassets */; };
+		17D5747A1DF4D38E00031ADE /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D574791DF4D38E00031ADE /* TableViewCell.swift */; };
+		17D5749C1DF5113400031ADE /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D5749B1DF5113400031ADE /* FavoritesViewController.swift */; };
+		17FC16791DEE3DB70042D4F8 /* HousingDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FC16771DEE3DB70042D4F8 /* HousingDetailViewController.swift */; };
+		17FC167A1DEE3DB70042D4F8 /* HousingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FC16781DEE3DB70042D4F8 /* HousingViewController.swift */; };
+		17FC167D1DEE4AA70042D4F8 /* HouseholdDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FC167B1DEE4AA70042D4F8 /* HouseholdDetailViewController.swift */; };
+		17FC167E1DEE4AA70042D4F8 /* HouseholdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FC167C1DEE4AA70042D4F8 /* HouseholdViewController.swift */; };
+		17FC16811DEE4C5D0042D4F8 /* ValuablesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FC167F1DEE4C5D0042D4F8 /* ValuablesDetailViewController.swift */; };
+		17FC16821DEE4C5D0042D4F8 /* ValuablesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FC16801DEE4C5D0042D4F8 /* ValuablesViewController.swift */; };
+		17FC39BE1DE0F1ED005AE91C /* UserReg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FC39BD1DE0F1ED005AE91C /* UserReg.swift */; };
+		9EB4D5B729C8D5C4F4BA7C04 /* Pods_IdeaApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA6151938F3A9D337A6FAABE /* Pods_IdeaApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1749FA801DEBE64E00463356 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = IdeaApp/ProfileViewController.swift; sourceTree = SOURCE_ROOT; };
+		176CD01C1DEA84200042ADE5 /* PostAdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostAdViewController.swift; path = IdeaApp/PostAdViewController.swift; sourceTree = SOURCE_ROOT; };
+		177DB9DB1DE7682100ED474E /* BooksDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BooksDetailViewController.swift; path = IdeaApp/BooksDetailViewController.swift; sourceTree = SOURCE_ROOT; };
+		177DB9DC1DE7682100ED474E /* ImageStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageStore.swift; path = IdeaApp/ImageStore.swift; sourceTree = SOURCE_ROOT; };
+		177DB9DD1DE7682100ED474E /* Ad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Ad.swift; path = IdeaApp/Ad.swift; sourceTree = SOURCE_ROOT; };
+		177DB9DE1DE7682100ED474E /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemCell.swift; path = IdeaApp/ItemCell.swift; sourceTree = SOURCE_ROOT; };
+		177DB9DF1DE7682100ED474E /* AdStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AdStore.swift; path = IdeaApp/AdStore.swift; sourceTree = SOURCE_ROOT; };
+		177DB9E01DE7682100ED474E /* BooksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BooksViewController.swift; path = IdeaApp/BooksViewController.swift; sourceTree = SOURCE_ROOT; };
+		177DCD301DF5322900A473BC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "IdeaApp/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		1784E1BF1DECF41600388522 /* MyAdsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyAdsViewController.swift; path = IdeaApp/MyAdsViewController.swift; sourceTree = SOURCE_ROOT; };
+		178AE1561DF3D1D200518BC1 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "IdeaApp/Launch Screen.storyboard"; sourceTree = SOURCE_ROOT; };
+		178F98971DEFE75B003901EE /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ForgotPasswordViewController.swift; path = IdeaApp/ForgotPasswordViewController.swift; sourceTree = SOURCE_ROOT; };
+		179C7A881DEF80C3000A0FD3 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = IdeaApp/LoginViewController.swift; sourceTree = SOURCE_ROOT; };
+		179C7A8A1DEF9107000A0FD3 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = IdeaApp/SignUpViewController.swift; sourceTree = SOURCE_ROOT; };
+		17B157F61DDE8C17007966D4 /* IdeaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IdeaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B157F91DDE8C17007966D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = IdeaApp/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		17B157FB1DDE8C17007966D4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = IdeaApp/HomeViewController.swift; sourceTree = SOURCE_ROOT; };
+		17B157FE1DDE8C17007966D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17B158001DDE8C17007966D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = IdeaApp/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		17B158051DDE8C17007966D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = IdeaApp/Info.plist; sourceTree = SOURCE_ROOT; };
+		17CE3EFC1DF1FE1F0008266B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = IdeaApp/Assets.xcassets; sourceTree = "<group>"; };
+		17D574791DF4D38E00031ADE /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		17D5749B1DF5113400031ADE /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FavoritesViewController.swift; path = IdeaApp/FavoritesViewController.swift; sourceTree = SOURCE_ROOT; };
+		17FC16771DEE3DB70042D4F8 /* HousingDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HousingDetailViewController.swift; path = IdeaApp/HousingDetailViewController.swift; sourceTree = SOURCE_ROOT; };
+		17FC16781DEE3DB70042D4F8 /* HousingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HousingViewController.swift; path = IdeaApp/HousingViewController.swift; sourceTree = SOURCE_ROOT; };
+		17FC167B1DEE4AA70042D4F8 /* HouseholdDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HouseholdDetailViewController.swift; path = IdeaApp/HouseholdDetailViewController.swift; sourceTree = SOURCE_ROOT; };
+		17FC167C1DEE4AA70042D4F8 /* HouseholdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HouseholdViewController.swift; path = IdeaApp/HouseholdViewController.swift; sourceTree = SOURCE_ROOT; };
+		17FC167F1DEE4C5D0042D4F8 /* ValuablesDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ValuablesDetailViewController.swift; path = IdeaApp/ValuablesDetailViewController.swift; sourceTree = SOURCE_ROOT; };
+		17FC16801DEE4C5D0042D4F8 /* ValuablesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ValuablesViewController.swift; path = IdeaApp/ValuablesViewController.swift; sourceTree = SOURCE_ROOT; };
+		17FC39BD1DE0F1ED005AE91C /* UserReg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserReg.swift; path = IdeaApp/UserReg.swift; sourceTree = SOURCE_ROOT; };
+		3BCBDDA3BD6D73E83D485C6F /* Pods-IdeaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IdeaApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IdeaApp/Pods-IdeaApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B1C9A621C2E287BEC7A41088 /* Pods-IdeaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IdeaApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-IdeaApp/Pods-IdeaApp.release.xcconfig"; sourceTree = "<group>"; };
+		CA6151938F3A9D337A6FAABE /* Pods_IdeaApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IdeaApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17B157F31DDE8C17007966D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EB4D5B729C8D5C4F4BA7C04 /* Pods_IdeaApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17B157ED1DDE8C17007966D4 = {
+			isa = PBXGroup;
+			children = (
+				17CE3EFC1DF1FE1F0008266B /* Assets.xcassets */,
+				17B157F81DDE8C17007966D4 /* IdeaApp */,
+				17B157F71DDE8C17007966D4 /* Products */,
+				BFE5B1B7F5756FB848C5F8DD /* Pods */,
+				F1763F59BDC107B3082A9287 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		17B157F71DDE8C17007966D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17B157F61DDE8C17007966D4 /* IdeaApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17B157F81DDE8C17007966D4 /* IdeaApp */ = {
+			isa = PBXGroup;
+			children = (
+				177DCD301DF5322900A473BC /* GoogleService-Info.plist */,
+				17D5749B1DF5113400031ADE /* FavoritesViewController.swift */,
+				17FC167F1DEE4C5D0042D4F8 /* ValuablesDetailViewController.swift */,
+				17FC16801DEE4C5D0042D4F8 /* ValuablesViewController.swift */,
+				17FC167B1DEE4AA70042D4F8 /* HouseholdDetailViewController.swift */,
+				17FC167C1DEE4AA70042D4F8 /* HouseholdViewController.swift */,
+				17FC16771DEE3DB70042D4F8 /* HousingDetailViewController.swift */,
+				17FC16781DEE3DB70042D4F8 /* HousingViewController.swift */,
+				1784E1BF1DECF41600388522 /* MyAdsViewController.swift */,
+				1749FA801DEBE64E00463356 /* ProfileViewController.swift */,
+				176CD01C1DEA84200042ADE5 /* PostAdViewController.swift */,
+				177DB9DB1DE7682100ED474E /* BooksDetailViewController.swift */,
+				177DB9DC1DE7682100ED474E /* ImageStore.swift */,
+				177DB9DD1DE7682100ED474E /* Ad.swift */,
+				177DB9DE1DE7682100ED474E /* ItemCell.swift */,
+				177DB9DF1DE7682100ED474E /* AdStore.swift */,
+				177DB9E01DE7682100ED474E /* BooksViewController.swift */,
+				17B157F91DDE8C17007966D4 /* AppDelegate.swift */,
+				17B157FB1DDE8C17007966D4 /* HomeViewController.swift */,
+				17B157FD1DDE8C17007966D4 /* Main.storyboard */,
+				17B158001DDE8C17007966D4 /* Assets.xcassets */,
+				17B158051DDE8C17007966D4 /* Info.plist */,
+				17FC39BD1DE0F1ED005AE91C /* UserReg.swift */,
+				179C7A881DEF80C3000A0FD3 /* LoginViewController.swift */,
+				179C7A8A1DEF9107000A0FD3 /* SignUpViewController.swift */,
+				178F98971DEFE75B003901EE /* ForgotPasswordViewController.swift */,
+				178AE1561DF3D1D200518BC1 /* Launch Screen.storyboard */,
+				17D574791DF4D38E00031ADE /* TableViewCell.swift */,
+			);
+			path = IdeaApp;
+			sourceTree = SOURCE_ROOT;
+		};
+		BFE5B1B7F5756FB848C5F8DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3BCBDDA3BD6D73E83D485C6F /* Pods-IdeaApp.debug.xcconfig */,
+				B1C9A621C2E287BEC7A41088 /* Pods-IdeaApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F1763F59BDC107B3082A9287 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA6151938F3A9D337A6FAABE /* Pods_IdeaApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17B157F51DDE8C17007966D4 /* IdeaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17B158081DDE8C17007966D4 /* Build configuration list for PBXNativeTarget "IdeaApp" */;
+			buildPhases = (
+				60E1FC786454DB2523F72079 /* [CP] Check Pods Manifest.lock */,
+				17B157F21DDE8C17007966D4 /* Sources */,
+				17B157F31DDE8C17007966D4 /* Frameworks */,
+				17B157F41DDE8C17007966D4 /* Resources */,
+				AC915C48E5D97B086D6A2A23 /* [CP] Embed Pods Frameworks */,
+				391332AA8A6729A93B437FFE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IdeaApp;
+			productName = IdeaApp;
+			productReference = 17B157F61DDE8C17007966D4 /* IdeaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17B157EE1DDE8C17007966D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "HEERA ANIL";
+				TargetAttributes = {
+					17B157F51DDE8C17007966D4 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 17B157F11DDE8C17007966D4 /* Build configuration list for PBXProject "IdeaApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17B157ED1DDE8C17007966D4;
+			productRefGroup = 17B157F71DDE8C17007966D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17B157F51DDE8C17007966D4 /* IdeaApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17B157F41DDE8C17007966D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B158011DDE8C17007966D4 /* Assets.xcassets in Resources */,
+				17B157FF1DDE8C17007966D4 /* Main.storyboard in Resources */,
+				177DCD311DF5322900A473BC /* GoogleService-Info.plist in Resources */,
+				178AE1571DF3D1D200518BC1 /* Launch Screen.storyboard in Resources */,
+				17CE3EFD1DF1FE1F0008266B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		391332AA8A6729A93B437FFE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IdeaApp/Pods-IdeaApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60E1FC786454DB2523F72079 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AC915C48E5D97B086D6A2A23 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IdeaApp/Pods-IdeaApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17B157F21DDE8C17007966D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17FC167A1DEE3DB70042D4F8 /* HousingViewController.swift in Sources */,
+				17B157FC1DDE8C17007966D4 /* HomeViewController.swift in Sources */,
+				17FC167E1DEE4AA70042D4F8 /* HouseholdViewController.swift in Sources */,
+				1784E1C01DECF41600388522 /* MyAdsViewController.swift in Sources */,
+				179C7A891DEF80C3000A0FD3 /* LoginViewController.swift in Sources */,
+				17B157FA1DDE8C17007966D4 /* AppDelegate.swift in Sources */,
+				17FC16811DEE4C5D0042D4F8 /* ValuablesDetailViewController.swift in Sources */,
+				17FC167D1DEE4AA70042D4F8 /* HouseholdDetailViewController.swift in Sources */,
+				178F98981DEFE75B003901EE /* ForgotPasswordViewController.swift in Sources */,
+				17FC39BE1DE0F1ED005AE91C /* UserReg.swift in Sources */,
+				177DB9E21DE7682100ED474E /* ImageStore.swift in Sources */,
+				177DB9E61DE7682100ED474E /* BooksViewController.swift in Sources */,
+				177DB9E41DE7682100ED474E /* ItemCell.swift in Sources */,
+				1749FA811DEBE64E00463356 /* ProfileViewController.swift in Sources */,
+				176CD01D1DEA84200042ADE5 /* PostAdViewController.swift in Sources */,
+				179C7A8B1DEF9107000A0FD3 /* SignUpViewController.swift in Sources */,
+				17FC16791DEE3DB70042D4F8 /* HousingDetailViewController.swift in Sources */,
+				17D5747A1DF4D38E00031ADE /* TableViewCell.swift in Sources */,
+				17FC16821DEE4C5D0042D4F8 /* ValuablesViewController.swift in Sources */,
+				177DB9E31DE7682100ED474E /* Ad.swift in Sources */,
+				17D5749C1DF5113400031ADE /* FavoritesViewController.swift in Sources */,
+				177DB9E51DE7682100ED474E /* AdStore.swift in Sources */,
+				177DB9E11DE7682100ED474E /* BooksDetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		17B157FD1DDE8C17007966D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17B157FE1DDE8C17007966D4 /* Base */,
+			);
+			name = Main.storyboard;
+			path = IdeaApp;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17B158061DDE8C17007966D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17B158071DDE8C17007966D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17B158091DDE8C17007966D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BCBDDA3BD6D73E83D485C6F /* Pods-IdeaApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = IdeaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.heeraanil.IdeaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		17B1580A1DDE8C17007966D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1C9A621C2E287BEC7A41088 /* Pods-IdeaApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = IdeaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.heeraanil.IdeaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17B157F11DDE8C17007966D4 /* Build configuration list for PBXProject "IdeaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B158061DDE8C17007966D4 /* Debug */,
+				17B158071DDE8C17007966D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17B158081DDE8C17007966D4 /* Build configuration list for PBXNativeTarget "IdeaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B158091DDE8C17007966D4 /* Debug */,
+				17B1580A1DDE8C17007966D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17B157EE1DDE8C17007966D4 /* Project object */;
+}
